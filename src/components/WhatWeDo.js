@@ -3,12 +3,31 @@ import React, { Component } from 'react';
 class WhatWeDo extends Component {
     render() {
         return (
-            <div>
-                <p>What We Do</p>
-                <ul>
+            <text>
+                {/* Home page Paragraph 1 Text */}
+                <div class="jumbotron jumbotron-fluid" style={{ textAlign: 'left' }}>
+                    <div class="container">
+                        <h1 align="center">Header</h1>
+                        <br />
+                        <br />
+                        <h3 class="display-5">Subheader</h3>
+                        <p class="lead">Data
+                        </p>
+                        <br />
+                        <h3 class="display-5">Subheader</h3>
+                        <p class="lead">Data
+</p>
+                        <br />
+                        <h3 class="display-5">Subheader</h3>
+                        <p class="lead">Data
+                        </p>
+                    </div>
+                </div>
+                <br />
+                <br />
 
-                </ul>
-            </div>
+
+            </text>
         )
     }
 }

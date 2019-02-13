@@ -20,7 +20,7 @@ class App extends Component {
                     <a className="nav-link" href="/WhatWeDo">What we do</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/Help">How can I help?</a>
+                    <a className="nav-link" href="/Help">How you can help</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/Donate">Donate</a>
