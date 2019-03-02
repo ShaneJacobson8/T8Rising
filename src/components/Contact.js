@@ -9,7 +9,31 @@ class Contact extends Component {
             EmailAddress: '',
             Message: ''
         }
+
+        // this.handleChange = this.handleChange.bind(this);
+        // this.handleSubmit = this.handleSubmit.bind(this);
         
+        // handleChange(e) {
+        //     this.setState({
+        //         [e.target.name]: e.target.value
+        //     });
+        // }
+        // handleSubmit(e) {
+        //     e.preventDefault();
+        //     const itemsRef = firebase.database().ref('ContactUs');
+        //     const item = {
+        //         firstName: this.state.contactFirstName,
+        //         lastName: this.state.contactLastName,
+        //         emailAddress: this.state.contactEmailAddress,
+        //         message: this.state.contactMessage
+        //     }
+        //     itemsRef.push(item);
+        //     this.setState({
+        //         contactFirstName: '',
+        //         contactLastName: '',
+        //         contactEmailAddress: '',
+        //         contactMessage: ''
+        //     })
     }
     render() {
         return (
